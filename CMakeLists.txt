@@ -53,8 +53,9 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   BoundingBox.msg
+  BoundingBoxes.msg
   ObjectState.msg
-  example.msg
+  ObjectStates.msg
 )
 
 ## Generate services in the 'srv' folder

@@ -1,5 +1,4 @@
-Header header
 string label
 float64 confidence
-geometry_msgs/Point centroid
+geometry_msgs/PointStamped centroid
 sensor_msgs/PointCloud2 object_pcl
