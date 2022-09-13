@@ -18,6 +18,8 @@ add_message_files(
   ObjectStates.msg
   ObjectInfo.msg
   ObjectsInfo.msg
+  Mask.msg
+  Masks.msg
 )
 
 
