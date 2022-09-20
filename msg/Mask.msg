@@ -1,0 +1,2 @@
+BoundingBox bouonding_box
+sensor_msgs/Image mask
