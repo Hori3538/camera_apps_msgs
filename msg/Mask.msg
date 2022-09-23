@@ -1,2 +1,2 @@
-BoundingBox bouonding_box
+BoundingBox bounding_box
 sensor_msgs/Image mask

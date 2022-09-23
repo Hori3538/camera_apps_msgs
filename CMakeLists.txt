@@ -10,6 +10,9 @@ find_package(catkin REQUIRED COMPONENTS
     message_generation
     )
 
+SET(OCV_VERSION "4.5.5")
+find_package(OpenCV ${OCV_VERSION})
+
 add_message_files(
   FILES
   BoundingBox.msg
@@ -41,7 +44,8 @@ catkin_package(
 )
 
 include_directories(
-# include
-# ${catkin_INCLUDE_DIRS}
+    include
+    ${catkin_INCLUDE_DIRS}
+    ${OpenCV_INCLUDE_DIRS}
 )
 
